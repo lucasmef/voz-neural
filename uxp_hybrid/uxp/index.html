@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Voz Neural</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <main class="panel">
+      <header class="hero">
+        <div class="brand-mark" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span>
+        </div>
+        <div>
+          <h1>Voz Neural</h1>
+          <p>Voz feminina pronta para reels</p>
+        </div>
+        <span class="local-badge">LOCAL</span>
+      </header>
+
+      <section class="preset-card" aria-labelledby="preset-title">
+        <div class="preset-heading">
+          <div>
+            <span class="eyebrow">AJUSTE VALIDADO</span>
+            <h2 id="preset-title">Presença natural</h2>
+          </div>
+          <span class="check-mark" aria-label="Preset pronto">✓</span>
+        </div>
+        <p>
+          O mesmo fluxo aprovado: limpeza neural, presença e acabamento
+          calibrados para voz feminina.
+        </p>
+        <div class="preset-tags" aria-label="Características">
+          <span>CapCut 75%</span>
+          <span>48 kHz</span>
+          <span>Estéreo seguro</span>
+        </div>
+      </section>
+
+      <section class="steps" aria-label="Como usar">
+        <div class="step">
+          <span class="step-number">1</span>
+          <div>
+            <strong>Selecione os áudios</strong>
+            <small>Na linha do tempo do Premiere</small>
+          </div>
+        </div>
+        <div class="step">
+          <span class="step-number">2</span>
+          <div>
+            <strong>Crie a voz tratada</strong>
+            <small>Cada clipe é processado separadamente</small>
+          </div>
+        </div>
+      </section>
+
+      <label class="option" for="disable-original">
+        <input id="disable-original" type="checkbox">
+        <span class="fake-checkbox" aria-hidden="true"></span>
+        <span>
+          <strong>Desativar o áudio original</strong>
+          <small>Opcional e reversível com Desfazer</small>
+        </span>
+      </label>
+
+      <button id="process-button" class="primary-button" type="button">
+        <span id="button-label">Criar voz tratada</span>
+      </button>
+
+      <div id="progress-area" class="progress-area" hidden>
+        <div class="progress-copy">
+          <span id="progress-label">Preparando…</span>
+          <span id="progress-count">0/0</span>
+        </div>
+        <div
+          class="progress-track"
+          role="progressbar"
+          aria-valuemin="0"
+          aria-valuemax="100"
+          aria-valuenow="0"
+        >
+          <div id="progress-bar"></div>
+        </div>
+      </div>
+
+      <div id="status" class="status info" role="status" aria-live="polite">
+        <span class="status-icon" aria-hidden="true">i</span>
+        <p>
+          O áudio tratado entra em uma faixa nova. Nenhum arquivo é
+          substituído ou revinculado.
+        </p>
+      </div>
+
+      <ol id="job-list" class="job-list" aria-label="Clipes processados"></ol>
+
+      <footer>
+        <span class="privacy-dot" aria-hidden="true"></span>
+        Processamento no seu Mac
+      </footer>
+    </main>
+  </body>
+</html>

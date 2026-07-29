@@ -1,0 +1,39 @@
+{
+  "manifestVersion": 6,
+  "id": "com.lucas.vozneural.premiere",
+  "name": "Voz Neural",
+  "version": "0.1.0",
+  "main": "index.html",
+  "host": {
+    "app": "premierepro",
+    "minVersion": "26.3.0"
+  },
+  "entrypoints": [
+    {
+      "type": "panel",
+      "id": "vozNeuralPanel",
+      "label": {
+        "default": "Voz Neural"
+      },
+      "minimumSize": {
+        "width": 300,
+        "height": 420
+      },
+      "preferredDockedSize": {
+        "width": 340,
+        "height": 620
+      },
+      "preferredFloatingSize": {
+        "width": 390,
+        "height": 680
+      }
+    }
+  ],
+  "addon": {
+    "name": "voz-neural.uxpaddon"
+  },
+  "requiredPermissions": {
+    "enableAddon": true,
+    "localFileSystem": "fullAccess"
+  }
+}

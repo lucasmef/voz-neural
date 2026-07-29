@@ -91,6 +91,9 @@
 /capcut_blackbox_audio_pack_v1/
 /capcut_blackbox_single_female_v1/
 /capcut_project_audio_female_30_clips/
+/uxp_hybrid/runtime/
+/uxp_hybrid/validation/
+/uxp_hybrid/native/.sdk-check/
 **/__pycache__/
 **/.pytest_cache/
 **/node_modules/

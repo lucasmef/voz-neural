@@ -3,6 +3,14 @@
 python.version=3.12.13
 numpy.version=2.3.5
 
+adobe_uxp_hybrid_sdk.version=6.5.0
+adobe_uxp_hybrid_sdk.release=Mar-2026
+adobe_uxp_hybrid_sdk.archive.sha256=8c7469c5108f4f768fdedf5c7e9ac8567f3d98f610a62d94dae798030d9841a9
+adobe_uxp_hybrid_sdk.source.commit=96099f4b36d9cc69429fcd2a07af20f93d9632dd
+
+premiere_wave48mono24_reference_preset.sha256=a4a5b7bedec474e76131a260185eecfc1b0dbcb7204e9ec687a4ce433b2d1486
+premiere_wave48stereo24_derived_preset.sha256=0246e861e1ea1f1d63aa0bf94794fefbd654b51379ffd3a8a80647cf60256262
+
 rnnoise.repository=https://github.com/xiph/rnnoise.git
 rnnoise.commit=70f1d256acd4b34a572f999a05c87bf00b67730d
 
