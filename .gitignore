@@ -1,0 +1,114 @@
+# Repositório privado de código.
+#
+# O diretório local também contém áudios, vídeos, modelos, executáveis,
+# projetos Adobe e resultados de laboratório. Tudo fica fora do Git por
+# padrão; somente fontes e configuração reproduzível são liberadas abaixo.
+*
+!*/
+
+# Metadados e dependências do projeto
+!/.gitignore
+!/.gitattributes
+!/.gitmodules
+!/README.md
+!/LICENSE*
+!/NOTICE*
+!/DEPENDENCIES.lock
+!/requirements*.txt
+!/pyproject.toml
+!/package.json
+!/package-lock.json
+!/uv.lock
+!/.github/
+!/.github/**
+
+# Código-fonte, build e UI em texto
+!**/*.py
+!**/*.js
+!**/*.mjs
+!**/*.ts
+!**/*.jsx
+!**/*.c
+!**/*.cc
+!**/*.cpp
+!**/*.cxx
+!**/*.h
+!**/*.hh
+!**/*.hpp
+!**/*.m
+!**/*.mm
+!**/*.swift
+!**/*.sh
+!**/*.zsh
+!**/*.command
+!**/*.applescript
+!**/*.html
+!**/*.css
+!**/*.svg
+!**/*.metal
+!**/*.r
+!**/*.rc
+!**/*.plist.in
+!**/*.entitlements
+!**/CMakeLists.txt
+!**/*.cmake
+!**/Makefile
+!**/manifest.json
+!**/package.json
+!**/package-lock.json
+!**/pyproject.toml
+!**/requirements*.txt
+!**/*.example.json
+!**/*.example.yaml
+!**/*.example.yml
+!**/.env.example
+
+# Documentação e licenças necessárias ao código
+!**/README.md
+!**/LICENSE*
+!**/COPYING*
+!**/NOTICE*
+!**/THIRD_PARTY_NOTICES.md
+!**/licenses/
+!**/licenses/*.txt
+!/independent_neural_flow_20260729/PREMIERE_INTEGRATION.md
+!/adobe_podcast_v2_test_20260728/AUDITION_26_3_SOUND_LIFT_ROUTE.md
+
+# Nunca versionar, mesmo que contenham extensões permitidas
+/premiere_face_retouch/
+/third_party/
+/sources/
+/.FsSyncLocks/
+/AGENTS.md
+/VERSIONAMENTO.md
+/Adobe Premiere Pro Auto-Save/
+/Adobe Premiere Pro Audio Previews/
+/Adobe Premiere Pro Video Previews/
+/analysis_capcut_blackbox_combined/
+/analysis_capcut_pairs/
+/capcut_blackbox_audio_pack_female_v2/
+/capcut_blackbox_audio_pack_female_v3/
+/capcut_blackbox_audio_pack_v1/
+/capcut_blackbox_single_female_v1/
+/capcut_project_audio_female_30_clips/
+**/__pycache__/
+**/.pytest_cache/
+**/node_modules/
+**/.venv/
+**/venv/
+**/.deps/
+**/.python-deps/
+**/.python-legacy/
+**/.toolchain/
+**/build/
+**/build-*/
+**/dist/
+**/backups/
+**/bin/
+**/models/
+**/*.app/
+**/*.vst3/
+**/*.component/
+**/*.bundle/
+**/*.framework/
+**/*.dSYM/

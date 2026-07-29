@@ -1,0 +1,2 @@
+# A versão do Python também é parte do contrato: 3.12.13.
+numpy==2.3.5

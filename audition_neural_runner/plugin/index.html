@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Voz Clara Neural</title>
+    <style>
+      body {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 20px;
+        background: #1e1e1e;
+        color: #f4f4f4;
+        font: 14px system-ui, sans-serif;
+      }
+
+      h1 {
+        margin: 0 0 8px;
+        font-size: 19px;
+      }
+
+      p {
+        margin: 0 0 16px;
+        color: #c7c7c7;
+        line-height: 1.4;
+      }
+
+      button {
+        width: 100%;
+        margin-bottom: 16px;
+        padding: 10px 14px;
+        border: 0;
+        border-radius: 5px;
+        background: #1473e6;
+        color: white;
+        font-weight: 600;
+      }
+
+      button:disabled {
+        background: #555;
+        color: #bbb;
+      }
+
+      pre {
+        box-sizing: border-box;
+        min-height: 230px;
+        margin: 0;
+        padding: 12px;
+        overflow: auto;
+        border-radius: 5px;
+        background: #111;
+        color: #cfe8ff;
+        font: 12px ui-monospace, monospace;
+        white-space: pre-wrap;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Voz Clara Neural</h1>
+    <p>
+      Teste local do Enhance Speech em cinco amostras femininas. Os originais
+      são apenas lidos; os resultados ficam na pasta de saída do laboratório.
+    </p>
+    <button id="run">Processar cinco amostras</button>
+    <pre id="status">Pronto.</pre>
+    <script src="index.js"></script>
+  </body>
+</html>

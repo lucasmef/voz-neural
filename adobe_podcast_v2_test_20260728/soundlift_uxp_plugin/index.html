@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    body {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 20px;
+      color: #f2f2f2;
+      background: #232323;
+      font-family: system-ui, sans-serif;
+    }
+    h1 { margin: 0 0 8px; font-size: 18px; }
+    p { margin: 0 0 16px; color: #c8c8c8; line-height: 1.45; }
+    button {
+      width: 100%;
+      margin: 0 0 10px;
+      padding: 10px 12px;
+      color: white;
+      background: #1473e6;
+      border: 0;
+      border-radius: 4px;
+      font-weight: 600;
+    }
+    button.secondary { background: #4a4a4a; }
+    button:disabled { opacity: .45; }
+    pre {
+      min-height: 120px;
+      margin: 12px 0 0;
+      padding: 10px;
+      overflow-wrap: anywhere;
+      white-space: pre-wrap;
+      color: #d8f2ff;
+      background: #171717;
+      border-radius: 4px;
+      font-size: 11px;
+    }
+  </style>
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <h1>Sound Lift — Teste Local</h1>
+  <p>Gera seis camadas WAV dentro da pasta de trabalho. Não abre nem altera projetos.</p>
+  <button id="runOne">Processar S01 (teste rápido)</button>
+  <button id="runBatch" class="secondary">Processar os 5 clipes de calibração</button>
+  <pre id="status">Pronto.</pre>
+</body>
+</html>

@@ -1,0 +1,35 @@
+{
+  "id": "com.lucas.soundlift.probe",
+  "name": "Sound Lift — Teste Local",
+  "version": "1.0.1",
+  "manifestVersion": 5,
+  "main": "index.html",
+  "host": {
+    "app": "audition",
+    "minVersion": "26.3.0",
+    "dependencies": {
+      "dvaaudiofilters": "",
+      "dvamediatypes": ""
+    }
+  },
+  "requiredPermissions": {
+    "localFileSystem": "fullAccess"
+  },
+  "entrypoints": [
+    {
+      "type": "panel",
+      "id": "soundLiftProbe",
+      "label": {
+        "default": "Sound Lift — Teste Local"
+      },
+      "minimumSize": {
+        "width": 360,
+        "height": 280
+      },
+      "preferredFloatingSize": {
+        "width": 460,
+        "height": 420
+      }
+    }
+  ]
+}
